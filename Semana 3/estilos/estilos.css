@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 30px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+.caja {
+    margin: 20px auto;
+    border: 5px solid;
+    background-color: chocolate;
+    width: 250px;
+    display: inline-block;
+}
+
+body {
+    background-image: url(../recursos/architecture-3121009_1920.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul,
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu a {
+    background-color: #FFF;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: cursive;
+    color: #032323;
+}
+
+
+header {
+    width: 80%;
+    margin: auto;
+}
+
+.menu:hover,
+.menu:hover a {
+    color: #fff;
+    background-color: #232426;
+}

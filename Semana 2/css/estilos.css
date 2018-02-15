@@ -1,0 +1,49 @@
+* {
+    padding: inherit;
+    margin: auto;
+}
+
+.parrafo {
+    background-color: silver;
+}
+
+#parrafo-1 {
+    color: blue;
+}
+
+#parrafo-2 {
+    color: red;
+}
+
+body {
+    font-family: cursive;
+}
+
+.corazon {
+    color: red; 
+    font-size: 25px;
+}
+
+#img-2 {
+    width: 150px; 
+    border-radius: 30%;
+}
+
+#img-1 {
+    width: 150px; 
+    border-radius: 50%;
+    transition: width 500ms;
+}
+
+h1 {
+    font-family: 'Lobster Two';
+}
+
+aside {
+    width: 80%;
+}
+
+#img-1:hover {
+    width: 500px;
+    /*transition: width 500ms;*/
+}
