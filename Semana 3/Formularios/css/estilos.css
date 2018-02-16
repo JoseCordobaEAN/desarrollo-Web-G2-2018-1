@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transition: .5s ease;
+}
+body {
+    background-image: url(../recursos/outdoor-3013637_1920.jpg);
+    background-attachment: fixed;
+    background-repeat: round;
+}
+
+.wrapper {
+    
+    background-color: rgba(255,255,255,.8);
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    max-width: 500px;
+    padding: 10px 20px 5px 10px;
+    border-radius: 1%;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+input[type=submit],
+input[type=reset]{
+    padding: 10px;
+    width: 40%;
+    border: none;
+    background-color: #6f8cbc;
+    color: #Fefefe;
+    
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover{
+    background-color: #5984cc;
+    cursor: pointer;
+}
+
+.radios, 
+.checkbox,
+.textos {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.textos input,
+.textos textarea{
+    padding: 10px;
+    border: none;
+    margin: 5px; 
+}
+
+.textos input:focus,
+.textos textarea:focus{
+    border-bottom: #5984cc solid 5px;
+}
+
+
+textarea {
+    resize: vertical;
+    max-height: 250px;
+    min-height: 100px;
+}
