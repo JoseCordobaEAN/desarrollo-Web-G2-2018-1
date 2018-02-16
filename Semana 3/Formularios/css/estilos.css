@@ -5,6 +5,7 @@
     font-size: 18px;
     transition: .5s ease;
 }
+
 body {
     background-image: url(../recursos/outdoor-3013637_1920.jpg);
     background-attachment: fixed;
@@ -12,7 +13,6 @@ body {
 }
 
 .wrapper {
-    
     background-color: rgba(255,255,255,.8);
     width: 80%;
     margin: 30px auto;
