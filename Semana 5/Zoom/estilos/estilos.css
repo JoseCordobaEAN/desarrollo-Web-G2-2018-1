@@ -1,0 +1,21 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#img1 {
+    transition: ease 0.5s;
+}
+
+body {
+    background: #ccc;
+}
+
+.tamano-normal {
+    width:  300px;
+}
+
+.tamano-grande {
+    width:  400px;
+}
+
