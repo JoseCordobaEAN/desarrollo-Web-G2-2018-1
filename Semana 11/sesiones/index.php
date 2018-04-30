@@ -18,7 +18,8 @@
     <title>Sesiones</title>
 </head>
 <body>
-    <h2>Hola sesion <?= session_id();?></h2>
+
+    <h2>Hola sesion <?= session_id();?>, gracias</h2>
     <div id="menasje">
         El usuario es: <?= $nombre?>
     </div>
